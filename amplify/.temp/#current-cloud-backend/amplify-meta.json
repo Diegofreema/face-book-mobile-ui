@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-friends-staging-162526-authRole",
+      "UnauthRoleArn": "arn:aws:iam::834715205352:role/amplify-friends-staging-162526-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::834715205352:role/amplify-friends-staging-162526-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-friends-staging-162526-deployment",
+      "UnauthRoleName": "amplify-friends-staging-162526-unauthRole",
+      "StackName": "amplify-friends-staging-162526",
+      "StackId": "arn:aws:cloudformation:eu-north-1:834715205352:stack/amplify-friends-staging-162526/41265be0-fd74-11ed-b8e9-0e33cdd291b6",
+      "AmplifyAppId": "d3geregimhj1tf"
+    }
+  },
+  "auth": {
+    "friends": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 6,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-friends-staging-162526-deployment/amplify-cfn-templates/auth/friends-cloudformation-template.json",
+        "logicalId": "authfriends"
+      },
+      "lastPushTimeStamp": "2023-05-28T16:57:45.012Z",
+      "output": {
+        "UserPoolId": "eu-north-1_pczcxULgD",
+        "AppClientIDWeb": "7al5hsek6ee0mosg289hld08r",
+        "AppClientID": "6d3o074ono5jfnb2p2rbjpaagt",
+        "IdentityPoolId": "eu-north-1:639b6941-91f8-48dd-a4c3-b305629c19bf",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-north-1:834715205352:userpool/eu-north-1_pczcxULgD",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "friends"
+      },
+      "lastPushDirHash": "vwpLh6ZzYJLUBRr7C9fTfhRr6TA="
+    }
+  }
+}

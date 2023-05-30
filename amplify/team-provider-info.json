@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-friends-staging-162526-authRole",
+      "UnauthRoleArn": "arn:aws:iam::834715205352:role/amplify-friends-staging-162526-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::834715205352:role/amplify-friends-staging-162526-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-friends-staging-162526-deployment",
+      "UnauthRoleName": "amplify-friends-staging-162526-unauthRole",
+      "StackName": "amplify-friends-staging-162526",
+      "StackId": "arn:aws:cloudformation:eu-north-1:834715205352:stack/amplify-friends-staging-162526/41265be0-fd74-11ed-b8e9-0e33cdd291b6",
+      "AmplifyAppId": "d3geregimhj1tf"
+    }
+  }
+}
